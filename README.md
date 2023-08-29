@@ -18,7 +18,7 @@ Provide a brief introduction to the purpose of this repository. Explain what kin
 
 Include screenshots or GIFs showcasing your designs. You can use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to create GIF previews of your interactive designs.
 
-**Design 1: Keyboard**
+**1: [Keyboard](https://sagar1902.github.io/designs/keyboard)**
 ![image](https://github.com/sagar1902/designs/assets/61275633/0614c888-0888-4305-966d-82b29bc4024b)
 
 
