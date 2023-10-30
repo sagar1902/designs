@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: 'Andis';
+            src: url('andis.otf') format('otf');
+        }
+
+        *{
+            font-family: 'Andis', sans-serif;
+        }
+        .vs-layout {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            width: 100%;
+            height: 40px;
+            font-size: 14px;
+            color: #cccccc;
+            background-color: #323233;
+            display: flex;
+            align-content: center;
+            flex-wrap: wrap;
+            padding: 5px 10px;
+        }
+        .header-element{
+            margin: 0;
+            padding: 5px 10px;
+            border-radius: 8px;
+        }
+        .header-element:hover{
+            background-color: #575757;
+        }
+
+        .vertical-main {
+            width: 100%;
+            flex-grow: 1;
+            display: flex;
+        }
+
+        .extension-bar {
+            height: 100%;
+            width: 50px;
+            background-color: #333333;
+        }
+
+        .explorer {
+            height: 100%;
+            width: 10%;
+            background-color: #252526;
+        }
+
+        .editor-terminal {
+            flex-grow: 1;
+            background-color: #1e1e1e;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .editor-body {
+            flex-grow: 1;
+        }
+
+        .editor-navbar {
+            width: 100%;
+            height: 40px;
+            background-color: #252526;
+        }
+
+        .terminal-body {
+            height: 30%;
+            border-top: 1px solid rgb(109, 109, 109);
+        }
+
+
+
+        .footer {
+            position: relative;
+            bottom: 0;
+            height: 30px;
+            background-color: #007acc;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <div class="vs-layout">
+        <div class="header">
+            <div class="header-element">File</div>
+            <div class="header-element">Edit</div>
+            <div class="header-element">Selection</div>
+            <div class="header-element">View</div>
+            <div class="header-element">Go</div>
+            <div class="header-element">Run</div>
+            <div class="header-element">Terminal</div>
+            <div class="header-element">Help</div>
+        </div>
+        <div class="vertical-main">
+            <div class="extension-bar"></div>
+            <div class="explorer"></div>
+            <div class="editor-terminal">
+                <div class="editor-body">
+                    <div class="editor-navbar"></div>
+                </div>
+                <div class="terminal-body"></div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
